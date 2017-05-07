@@ -41,7 +41,7 @@ Breaking changes:
     probably continue to work, even if you pass a relative path, though.
 
 ### v0.4.5
-  - Compatibility fix for coffee-script 1.9.1 (thanks [technogeek00](https://github.com/technogeek00))
+  - Compatibility fix for coffeescript 1.9.1 (thanks [technogeek00](https://github.com/technogeek00))
 
 ### v0.4.4
 
@@ -72,8 +72,8 @@ Breaking changes:
 
 ### v0.2.0
 
-  - Force coffee-script to disable chaining of if/else if statements during compile.  This
-    fix is required for coffee-script 1.6.3 and higher.
+  - Force coffeescript to disable chaining of if/else if statements during compile.  This
+    fix is required for coffeescript 1.6.3 and higher.
 
 ### v0.1.4
 
@@ -81,16 +81,16 @@ Breaking changes:
 
 ### v0.1.3
 
-  - Update to Coffee-Script >=1.6.2.
+  - Update to coffeescript >=1.6.2.
 
 ### v0.1.2
 
-  - Update to Coffee-Script 1.6.1.
+  - Update to coffeescript 1.6.1.
 
 ### v0.1.1
 
-  -Ran into a strange bug in Coffee-Script 1.5.0 that's fixed in git, so I switched the dependency
-   to the latest Coffee-Script for now.  Basically this:
+  -Ran into a strange bug in coffeescript 1.5.0 that's fixed in git, so I switched the dependency
+   to the latest coffeescript for now.  Basically this:
 
         done null, _.extend
           myObj: "foo"
@@ -99,7 +99,7 @@ Breaking changes:
 
 ### v0.1.0
 
-  -Switch over to official Coffee-Script (v.1.5.0 or higher)
+  -Switch over to official coffeescript (v.1.5.0 or higher)
   -Bug fix from [vslinko](https://github.com/vslinko) for writing files synchronously.
 
 ### v0.0.6

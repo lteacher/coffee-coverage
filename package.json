@@ -38,14 +38,17 @@
   },
   "dependencies": {
     "argparse": "^1.0.2",
-    "coffee-script": ">=1.6.2",
     "lodash": "^4.14.0",
     "minimatch": "^3.0.2",
     "pkginfo": ">=0.2.3"
   },
+  "peerDependencies": {
+    "coffeescript": ">=1.6.2 || >=2.0.0-beta1"
+  },
   "devDependencies": {
     "benchmark": "^2.0.0",
     "chai": "^3.0.0",
+    "coffeescript": ">=1.6.2",
     "coveralls": "^2.11.2",
     "istanbul": "^0.4.4",
     "mocha": "^3.2.0",
